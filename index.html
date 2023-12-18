@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+        <title>Maren Cosens Personal Webpage</title>
+    </head>
+    <body>
+        <!--Navigation bar-->
+        <nav class="navbar" role="navigation">
+            <ul>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="outreach.html">Outreach</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li class="active"><a href="index.html">About Me</a></li>
+            </ul>
+        </nav>
+        <!--Banner-->
+        <div id="banner">
+            <div id ="title">
+                <h1>Maren Cosens</h1>
+                <h2>Brinson Prize Postdoctoral Fellow</h2>
+                <h2>Carnegie Observatories</h2>
+            </div>
+        </div>
+        <!--About Me-->
+        <div id="about">
+            <h3>About Me</h3>
+            <div class="container">
+                <div class="headshot">
+                    <img src="./resources/maren_cropped.jpg"> <!---Placeholder, add better photo--->
+                </div>
+                <div class="righttext">
+                    <!--<p>I am a PhD candidate in the Physics Department at the University of California San Diego working with Prof. Shelley Wright in the Optical and InfraRed Laboratory (OIR Lab). I primarily study the evolution of galaxies through observations of the gaseous regions that have undergone recent star formation. To do this, I use innovative integral field spectrographs on some of the largest optical and near-infrared telescopes in the world at the W.M. Keck Observatory to observe both local and distant galaxies. I also work on the design of opto-mechanical components for a next generation imager and integral field spectrograph, Liger, which will go on one of the 10-m Keck telescopes. This instrument will take advantage of the ongoing upgrade to the Keck adaptive optics system, KAPA.<p>-->
+                    <p>I am a Brinson Prize Postdoctoral Fellow in Astronomical Instrumentation at The Observatories of the Carnegie Institute for Science. I work on both observational astrophysics as well as developing instruments for ground based telescopes that will allow us to conduct new observations. On the observational side, I primarily study the evolution of galaxies through observations of the gaseous regions that have undergone recent star formation. To do this, I use cutting edge instruments called integral field spectrographs on some of the largest ground-based telescopes in the world at the W.M. Keck and Las Campanas Observatories. Integral field spectrographs (IFS) provide a powerful tool for astronomical observations as they allow us to take an image at multiple wavelengths simulataneously, combining the advantages of traditional imaging and spectroscopy. I also spend a large fraction of my time developing new and improved integral field spectrographs that will enable new observations to improve our understanding of things like the impact of stellar feedback on the surrounding gas.</p>
+                </div>
+            </div>
+            <h3>Instrumentation</h3>
+                <h4>MIRMOS</h4><!--Need to update this section-->
+                    <div class="container">
+                        <p> I am the instrument scientist for the Magellen InfraRed Multi-Object Spectrograph, or MIRMOS. MIRMOS is a next generation multi-object <i>and</i> integral field spectrograph for the 6.5m Magellan telescopes at the Las Campanas Observatory in Chile. This new spectrograph will cover an impressively wide wavelength range in the near-infrared (0.886-2.404um) through the use of four-simultaneous spectrograph channels. The multi-object mode of MIRMOS will use a cryogenic slit unit (CSU) with 92 sets of masking bars to define the slit positions. The integral field mode makes use of an image slicer style integral field unit (IFU) that I'm designing using complex freeform mirrors. This IFU will provide the largest field of view of any IFS operating at these wavelengths from the ground or space. This new, wide-field IFS capability at the near-infrared will open up new parameter spaces for observation in key areas of galaxy evolution science. We will be able to probe the obscured component of star formation in local galaxies, providing a better accounting of the energy injected into the gas due to stellar feedback, and at high-redshift we will be able to make the first robust maps of the morphology and kinematics of the circumgalactic medium gas around quasars and galaxy groups.</p> <!--add more detail and images-->
+                    </div> 
+                    <div class="container">
+                        <!---<p><img src="./resources/imager_labelled.png", alt="Liger Imager", style="float:left;width:494px;height:370px;padding-left:20px;padding-right: 20px; padding-bottom: 40px;"/> The Keck Observatory is in the middle of an upgrade to its adaptive optics (AO) system which will allow for even better improvements to the way atmospheric distortions are corrected. This requires the development of new instruments that can take advantage of these improvements. The Liger IFS and Imager are currently being designed to do just that. I'm putting my undergraduate education in Mechanical Engineering to good use, designing the major components that will be used by both the imager and spectrograph modes of Liger. The filter wheel I designed will select the allowed wavelength range, the pupil wheel limits the amount of background light that can contaminate the data, and the detector stage I am designing will house and position the imager CCD as well as the pickoff mirrors that will send the light on to the spectrograph. Liger will enable a wide range of new science including improvements in the observations of star forming regions with better performance at shorter wavelengths than current AO instruments. </p>--->
+                        <!---image slideshow--->
+                        <!---update images and add more--->
+                        <div class="slide-container">
+                            <div class="slide fade">
+                                <img src="./resources/Liger/imager_labelled_resized.png" alt="Liger imager" style="width:200%;">
+                            </div>
+                            <div class="slide fade">
+                                <img src="./resources/Liger/Liger_imager_detector_10_28_2021_resized.png" alt="Liger detector head" style="width:200%;">
+                            </div>
+                            <div class="slide fade">
+                                <img src="./resources/Liger/filter_wheel_rendering_resized.png" alt="Liger filter wheel" style="width:200%;">
+                            </div>
+                            <div class="slide fade">
+                                <img src="./resources/Liger/pupil_wheel_rendering_resized.png" alt="Liger pupil wheel" style="width:200%;">
+                                    </div>
+                            <!---slideshow buttons--->
+                            <a href="#" class="prev" title="Previous">&#10094</a>
+                            <a href="#" class="next" title="Next">&#10095</a>
+                            <div class="dots-container">
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </div>
+                            <script src="./resources/slideshow.js"></script>
+                        </div>
+                        <div class="righttext">
+                            <h4>Liger</h4>
+                            <p>The Keck Observatory is in the middle of an upgrade to its adaptive optics (AO) system which will allow for even better improvements to the way atmospheric distortions are corrected. This requires the development of new instruments that can take advantage of these improvements. The Liger IFS and Imager are currently being designed to do just that. During my time as a graduate student at UC San Diego, I designed many of the major components that will be used by both the imager and spectrograph modes of Liger. The filter wheel I designed will select the allowed wavelength range, the pupil wheel limits the amount of background light that can contaminate the data, and the detector stage will house and position the imager detector as well as the pickoff mirrors that will send the light on to the spectrograph. Liger will enable a wide range of new science including improvements in the observations of star forming regions with better performance at shorter wavelengths than current AO instruments. </p>
+                        </div>
+                    </div>
+            <h3>Observations</h3>
+                <h4>Studying Star Forming Regions in Nearby Galaxies</h4>
+                    <div class="container">
+                        <!--<p><img src="./resources/BH3cube_video_cropped.gif", alt="IC10 gif", style="float:right;width:321px;height:278px;padding-left:20px;padding-right: 20px;", loop="-1"/> Integral field spectrographs (IFS) provide a powerful tool for astronomical observations as they allow us to take an image at multiple wavelengths simulataneously, combining the advantages of traditional imaging and spectroscopy. A major component of my these involves using the Keck Cosmic Web Imager IFS to study the conditions of the star forming regions in our nearest starburst galaxy, IC-10, and how they interact with the surrounding galaxy through processes called feedback. Practically, this involves planning and executing the observations, reducing the raw data from counts on the CCD to real units of flux at each wavelength, and analyzing and interpretting the resulting observations. To analyze the data I have written a large suite of python scripts to combine overlapping images, identify star forming regions, extract spectra, and determine the emission line and kinematic properties of the gas in IC-10. <br><img src="./resources/IC10_H17a_maps.png" alt="HII regions kinematic maps" style="float:center; width:60%;"/></p>-->
+                        <p><img src="./resources/BH3cube_video_cropped.gif", alt="IC10 gif", style="float:right;width:321px;height:278px;padding-left:20px;padding-right: 20px;", loop="-1"/>  I use optical IFS like the Keck Cosmic Web Imager (KCWI) and the Integral Field Unit for Magellan (IFU-M) to study the conditions of the star forming regions in nearby dwarf galaxies and how they interact with the surrounding gas through processes called feedback. These instruments allow me to study the gas conditions and motion in great detail, providing insight into how stellar feedback influences the surrounding galaxy, potentially halting -- or triggering -- the next round of star-formation.  <br><img src="./resources/IC10_H17a_maps.png" alt="HII regions kinematic maps" style="float:center; width:65%;"/></p>  
+                    </div>
+                <h4>The SDSS-V Local Volume Mapper</h4><!--Need to update this section-->
+                    <div class="container">
+                        <p>I am a co-chair of the star-formation and feedback working group for the <a href="https://www.sdss.org/dr18/lvm/about/">Local Volume Mapper (LVM)</a> survey. LVM is a unique IFS facility and survey that will map the disc of our own Milky Way, the Large and Small Magellanic Clouds, and nearby dwarf galaxies in the full optical and part of the near infrared spectrum. This will be by far the largest IFS mosaic of the sky to date and will provide important data for many topics of study, including stellar feedback. One of the key goals with LVM is to study the different mechanisms of stellar feedback in a range of environments to see when each one is effective. This will greatly improve our current understanding of how exactly this energy and momentum couples to the surrounding gas and influences the evolution of the galaxy.</p>  
+                    </div>
+        </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div>
+            <a href="#banner">Back to top</a>
+        </div>
+        <div id="contact">
+            <p style="text-align:left; width:98%; color: #FFFFFF;">Find me at:
+                <br><a href="mailto: mcosens@carnegiescience.edu">mcosens[@]carnegiescience.edu</a>
+                <br><a href=https://www.linkedin.com/in/maren-cosens-bb8555198/>LinkedIn</a>
+                <br><a href=https://github.com/mcosens>GitHub</a>
+                <br><a href=https://orcid.org/0000-0002-2248-6107>ORCID</a></p>
+        </div>
+    </footer>
+    </body>
+</html>
